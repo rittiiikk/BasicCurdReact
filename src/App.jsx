@@ -6,7 +6,7 @@ import EditPost from "./Pages/EditPost";
 function App() {
   return (
     <div>
-      <h1>Cirrius Task1</h1>
+      <h1>Cirrius Task</h1>
       <Routes>
         <Route path="/" element={<PostLists />} />
         <Route path="/post/:id" element={<Post />} />

@@ -27,7 +27,11 @@ const EditPost = () => {
   });
 
   if (isLoading) return "loading...";
-  if (isError) return `Error: ${error.message}`;
+  // if (isError) return `Error: ${error.message}`;
+
+  if (isError) {
+    alert("Something went wrong.....");
+  }
 
   const handleSubmit = (updatedPost) => {
     updatePostMutation.mutate({ id, ...updatedPost });

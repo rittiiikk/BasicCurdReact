@@ -1,39 +1,36 @@
 {
   "posts": [
     {
-      "id": "0fa3bf83-1877-4959-babb-7295d15737b9",
-      "title": "rajan gupta",
-      "body": "939029209"
+      "id": "8d954470-6d0b-454c-b089-6c9ac5a32164",
+      "title": "Rohit Sharma",
+      "body": "World record 264 ",
+      "Category": "",
+      "gender": "male",
+      "category": "Sports"
     },
     {
-      "id": "de79dea7-b9de-4a68-a639-9b750e995607",
-      "title": "",
-      "body": "phyzii crm"
+      "id": "f3368358-769b-4632-a4d4-272d959080b9",
+      "title": "Priyanka Chopra",
+      "body": "Actress",
+      "Category": "",
+      "gender": "female",
+      "category": "Entertainment"
     },
     {
-      "id": "a36ca3c4-b329-4bf5-b8bf-93766739d906",
-      "title": "ritk",
-      "body": "wiqdu"
+      "id": "4a8ea69e-62f3-4b09-9052-f971146e4abc",
+      "title": "Virat Kohli",
+      "body": "World record 84 centuries",
+      "Category": "",
+      "gender": "male",
+      "category": "Sports"
     },
     {
-      "id": "213f1bc6-a822-4c9e-8c9a-fbc32d18d965",
-      "title": "Ritik Yadav",
-      "body": "Joined Cirrius Technologies , On 16 th nove"
-    },
-    {
-      "id": "7feb5474-b883-4921-9ddb-1ee436f52e89",
-      "title": "Hello World ",
-      "body": "The First Code for practice"
-    },
-    {
-      "id": "4e09a10f-4a68-42b9-ba95-4acbda67d4c6",
-      "title": "erg",
-      "body": "etsg fh wrtbsry"
-    },
-    {
-      "id": "05e621b1-a8f0-4fb1-8b53-d69d28ffd2ee",
-      "title": "dfht",
-      "body": "wertyuildfghjkzxcvbnm dghjkasdfg sdfghjk,"
+      "id": "f852374e-c157-4894-bd44-04d49115552d",
+      "title": "7twit",
+      "body": "iywodoiw",
+      "Category": "",
+      "gender": "male",
+      "category": "Sports"
     }
   ]
 }
