@@ -1,5 +1,6 @@
 import { trimPathRight } from "@tanstack/react-router";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const PostForm = ({ onSubmit, initialValue }) => {
   const [post, setPost] = useState({
@@ -8,6 +9,8 @@ const PostForm = ({ onSubmit, initialValue }) => {
     Category: initialValue.Category || "",
     gender: initialValue.gender || "",
   });
+
+  const navigate = useNavigate();
 
   const handleChangeInput = (e) => {
     setPost({
@@ -37,6 +40,8 @@ const PostForm = ({ onSubmit, initialValue }) => {
       // Category: "",
       gender: "",
     });
+
+    navigate("/");
   };
 
   return (

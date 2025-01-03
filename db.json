@@ -1,36 +1,19 @@
 {
   "posts": [
     {
-      "id": "8d954470-6d0b-454c-b089-6c9ac5a32164",
-      "title": "Rohit Sharma",
-      "body": "World record 264 ",
+      "id": "9a94eac1-6d5a-48cc-94ec-a6ca522b2e61",
+      "title": "ertyu",
+      "body": "ertyuio",
       "Category": "",
-      "gender": "male",
-      "category": "Sports"
+      "gender": "male"
     },
     {
-      "id": "f3368358-769b-4632-a4d4-272d959080b9",
-      "title": "Priyanka Chopra",
-      "body": "Actress",
+      "id": "5feb606d-8122-436b-9425-6f42641ed748",
+      "title": "riutikk",
+      "body": "rfyuggugugi",
       "Category": "",
-      "gender": "female",
+      "gender": "male",
       "category": "Entertainment"
-    },
-    {
-      "id": "4a8ea69e-62f3-4b09-9052-f971146e4abc",
-      "title": "Virat Kohli",
-      "body": "World record 84 centuries",
-      "Category": "",
-      "gender": "male",
-      "category": "Sports"
-    },
-    {
-      "id": "f852374e-c157-4894-bd44-04d49115552d",
-      "title": "7twit",
-      "body": "iywodoiw",
-      "Category": "",
-      "gender": "male",
-      "category": "Sports"
     }
   ]
 }

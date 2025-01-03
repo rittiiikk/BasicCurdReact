@@ -34,21 +34,50 @@ const PostLists = () => {
 
   return (
     <div className="container">
-      <AddPost />
+      <button onClick={() => navigate("/create-post")}>Create Post</button>
 
-      {posts.map((post) => (
-        <div key={post.id} style={{ background: "#777" }}>
-          <h4
-            style={{ cursor: "pointer" }}
-            onClick={() => navigate(`/post/${post.id}`)}
-          >
-            {post.title}
-          </h4>
-          <p>{post.body}</p>
-          <button onClick={() => navigate(`/${post.id}/edit`)}>Edit</button>
-          <button onClick={() => handleDelete(post.id)}>Delete</button>
-        </div>
-      ))}
+      {/* Table to display posts */}
+      <table
+        border="1"
+        cellPadding="10"
+        style={{ marginTop: "20px", width: "100%" }}
+      >
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Body</th>
+            <th>Gender</th>
+            <th>category</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {posts.map((post) => (
+            <tr key={post.id}>
+              <td
+                style={{ cursor: "pointer" }}
+                onClick={() => navigate(`/post/${post.id}`)}
+              >
+                {post.title}
+              </td>
+              <td>{post.body}</td>
+              <td>{post.gender}</td>
+              <td>{post.category}</td>
+              <td>
+                <button onClick={() => navigate(`/${post.id}/edit`)}>
+                  Edit
+                </button>
+                <button
+                  onClick={() => handleDelete(post.id)}
+                  style={{ marginLeft: "10px" }}
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };
